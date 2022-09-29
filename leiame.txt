@@ -1,0 +1,13 @@
+https://github.com/euberskills/MiniProjeto1---Filas-e-Deques
+
+Equipe: Euber Augustus Marinho Pereira
+
+Não consultei nenhum site, basicamente fez o código sozinho, apenas consultei o stackoverflow algumas
+vezes para verificar alguns bugs.
+
+Não consegui realizar tudo o que foi proposto no exercício devido a problemas pessoais, não consegui
+ter tempo suficiente para terminar o projeto. 
+
+Alguns problemas que vão ser encontrados no projeto é:
+
+- Falta de limite máximo na capacidade do deque.

@@ -24,7 +24,9 @@ while menu.upper() != "SAIR":
   # Operação de Vendas das Ações
   if menu.upper() == "VENDER":
     if len(fila.dados) == 0:
-      print("A fila está vazia.")
+      print("A fila está vazia. Não há ações para serem vendidas.")
+    elif qtd_acoes > len(fila.dados):
+      print("Operação não permitida. Número de ações maior do que a quantidade disponível.")
     else:
       valor_vendas = qtd_acoes * valor_acoes
       for k in range(qtd_acoes):
@@ -62,7 +64,5 @@ print(deque.items)
 print("o Saldo atual é de: R${:.2f}".format(saldo))
 
 #Erros a serem tratados
-#DequeVazio
-#FilaVazia
 #Vender mais ações do que eu tenho ou ações com lista vazia
 #Tratar o deque com mais de 10 itens.
